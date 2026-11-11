@@ -24,11 +24,16 @@ for relative, expected in checksums.items():
         print(f'{relative}: verified existing checkpoint')
         continue
     destination.parent.mkdir(parents=True, exist_ok=True)
-    url = repository['assets'][relative]
+    urls = repository['assets'][relative]
+    if isinstance(urls, str):
+        urls = [urls]
     partial = destination.with_suffix('.pt.part')
     print(f'Downloading {relative}', flush=True)
-    with urllib.request.urlopen(url, timeout=120) as response, partial.open('wb') as handle:
-        shutil.copyfileobj(response, handle, length=8 * 1024 * 1024)
+    with partial.open('wb') as handle:
+        for url in urls:
+            print(Path(url).name, flush=True)
+            with urllib.request.urlopen(url, timeout=120) as response:
+                shutil.copyfileobj(response, handle, length=8 * 1024 * 1024)
     if sha256(partial) != expected['sha256']:
         raise SystemExit(f'Download SHA256 mismatch: {partial}')
     partial.replace(destination)

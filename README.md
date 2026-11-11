@@ -56,11 +56,7 @@ python -c "from transformers import BertModel,BertTokenizer; BertTokenizer.from_
 
 第 1 折最佳权重发布在[GitHub Release](https://github.com/TT-t-1/CogECI-ESL/releases/tag/v1.0.0)。三个权重的下载入口如下。
 
-| 实验 | 权重文件 |
-|---|---|
-| E0 | [BERT 基线，第 1 折](https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt) |
-| E1 | [CogECI + Llama 伪标签，第 1 折](https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt) |
-| E2 | [CogECI + Qwen 伪标签，第 1 折](https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt) |
+Release 中提供三个权重的二进制分片。下载脚本会按顺序下载、自动合并到对应模型目录，并核验完整文件的 SHA256。
 
 先在解压后的包根目录执行以下命令。脚本读取 `models/github_release.json` 中记录的 Release 地址，将三个权重保存到 `models/E0/`、`models/E1/`、`models/E2/`，并核验 `models/checksums.json` 的 SHA256。
 

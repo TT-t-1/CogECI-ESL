@@ -3,8 +3,59 @@
   "tag": "v1.0.0",
   "url": "https://github.com/TT-t-1/CogECI-ESL/releases/tag/v1.0.0",
   "assets": {
-    "models/E0/fold_1_best.pt": "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt",
-    "models/E1/fold_1_best.pt": "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt",
-    "models/E2/fold_1_best.pt": "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt"
-  }
+    "models/E0/fold_1_best.pt": [
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part01",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part02",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part03",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part04",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part05",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part06",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part07",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part08",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part09",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part10",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part11",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part12",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part13",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt.part14"
+    ],
+    "models/E1/fold_1_best.pt": [
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part01",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part02",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part03",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part04",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part05",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part06",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part07",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part08",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part09",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part10",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part11",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part12",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part13",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part14",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part15",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt.part16"
+    ],
+    "models/E2/fold_1_best.pt": [
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part01",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part02",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part03",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part04",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part05",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part06",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part07",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part08",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part09",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part10",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part11",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part12",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part13",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part14",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part15",
+      "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt.part16"
+    ]
+  },
+  "format": "raw_binary_parts",
+  "part_bytes": 33554432
 }
