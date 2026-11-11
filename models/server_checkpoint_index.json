@@ -1,0 +1,74 @@
+[
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_esl_main/fold_1_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_esl_main/fold_2_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_esl_main/fold_3_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_esl_main/fold_4_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_esl_main/fold_5_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/qwen7b_esl_main/fold_1_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/qwen7b_esl_main/fold_2_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/qwen7b_esl_main/fold_3_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/qwen7b_esl_main/fold_4_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/qwen7b_esl_main/fold_5_best.pt",
+    "bytes": 533106332
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold1/fold_1_best.pt",
+    "bytes": 459274776
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold1_smoke/fold_1_best.pt",
+    "bytes": 459274776
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold1_smoke_before_single_sentence_fix/fold_1_best.pt",
+    "bytes": 459274776
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold2/fold_2_best.pt",
+    "bytes": 459274776
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold2_resume_20261106/fold_2_best.pt",
+    "bytes": 459274776
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold3/fold_3_best.pt",
+    "bytes": 459274776
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold4/fold_4_best.pt",
+    "bytes": 459274776
+  },
+  {
+    "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold5/fold_5_best.pt",
+    "bytes": 459274776
+  }
+]

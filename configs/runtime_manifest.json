@@ -1,0 +1,360 @@
+{
+  "implementation": "user_selected_cgl_gradient_fix",
+  "created_at": "2026-11-04T20:22:07.707173+08:00",
+  "runtime": {
+    "training": {
+      "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+      "packages": {
+        "torch": "2.1.0+cu118",
+        "transformers": "4.36.2",
+        "torch-geometric": "2.3.1",
+        "torch-scatter": "2.1.2+pt21cu118",
+        "numpy": "1.26.4",
+        "scikit-learn": "1.7.2",
+        "accelerate": null,
+        "huggingface-hub": "0.36.2",
+        "tokenizers": "0.15.2"
+      }
+    },
+    "llm": {
+      "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+      "packages": {
+        "torch": "2.1.0+cu118",
+        "transformers": "4.45.2",
+        "torch-geometric": null,
+        "torch-scatter": null,
+        "numpy": "1.26.4",
+        "scikit-learn": null,
+        "accelerate": "0.34.2",
+        "huggingface-hub": "0.26.5",
+        "tokenizers": "0.20.3"
+      }
+    }
+  },
+  "base_commits": {
+    "CogECI": "3cd37e1677f2f3b1ca0920eaa387c9d9849276eb",
+    "iLIF": "d89b0267051183da52d59ac5bb8d2b3fa775c8eb",
+    "ESL_complete": "46edefee5e82e0917b823abe0a18bf8c7770f15c"
+  },
+  "source_patch_sha256": "3e7305e1df08668827562a01970f8453ce9c50936c07a5563fbd9ca753390636",
+  "integrated_patch_sha256": "c3e7d19d36d9f638ca5211e4b529b62b4e4ca9b97327857b1a90a0a0388f3e45",
+  "code_hashes": {
+    "CogECI-cgl-fixed/model/model.py": "5d904c4eb43f1ef85259b70fab7264d9a95ab5839d961e62fb4b9978c9531280",
+    "CogECI-cgl-fixed/main.py": "cfca6e067c0a4b06dc71e8e068a8b6f77ce11f82029d4a6d09850bba7b1ae5aa",
+    "scripts/pipeline_cgl_fixed.py": "6b3ba346a8308a91fe25aba8546c4e1d7de697fbe87fe0dd327e6c1185921618",
+    "scripts/label_local.py": "43ce22d536b732c4eb66e60f9ce3d1b01a329ae1e7134cc1a1c2395eb50fa9b2",
+    "scripts/smoke_cgl_fixed_runtime.py": "981a3eaadee28d74fa7640ba194715b86948c7c85e56fa92b5dc573d5f0b6aa9",
+    "CogECI-cgl-fixed/parameter.py": "870b5272d759647b375dc84d9ca94fa5c5f7e94f15cb6406e6b62e9d2ffda58c",
+    "scripts/guard.py": "e1a73d48e8c4937aa84f27d8cffa80c12d1fbf15e0fed106fb13c5f5a33e7aa7",
+    "scripts/label_parallel.py": "b20b8aad2aec14fc09daee9ec280bc4beef9f0351cf61dec1d5fd2b7dad46d79"
+  },
+  "models": {
+    "qwen": {
+      "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/models/qwen2.5-7b-instruct",
+      "files": [
+        {
+          "file": "LICENSE",
+          "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+          "size": 11343,
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "README.md",
+          "sha256": "f366f33bbf6bcadbb7d87f0a21a7b65584a56b8d58b0743c77c88bee625b93a6",
+          "size": 6240,
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "config.json",
+          "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+          "size": 663,
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "generation_config.json",
+          "sha256": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f",
+          "size": 243,
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "merges.txt",
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "size": 1671839,
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7",
+          "size": 3945441440,
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/Qwen/Qwen2.5-7B-Instruct/resolve/077a6aff06a7d75066ecc3abe12ce0d673873603/model-00001-of-00004.safetensors?download=true"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185",
+          "size": 3864726352,
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/Qwen/Qwen2.5-7B-Instruct/resolve/077a6aff06a7d75066ecc3abe12ce0d673873603/model-00002-of-00004.safetensors?download=true"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5",
+          "size": 3864726424,
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/Qwen/Qwen2.5-7B-Instruct/resolve/077a6aff06a7d75066ecc3abe12ce0d673873603/model-00003-of-00004.safetensors?download=true"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd",
+          "size": 3556377672,
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/Qwen/Qwen2.5-7B-Instruct/resolve/077a6aff06a7d75066ecc3abe12ce0d673873603/model-00004-of-00004.safetensors?download=true"
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "sha256": "624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028",
+          "size": 27752,
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "tokenizer.json",
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "size": 7031645,
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "size": 7305,
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "size": 2776833,
+          "verified_against": "HF pinned tree"
+        }
+      ]
+    },
+    "llama": {
+      "repo_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+      "revision": "8afb486c1db24fe5011ec46dfbe5b5dccdb575c2",
+      "mirror_repo": "modelscope/Meta-Llama-3-8B-Instruct",
+      "path": "/home/dancer/tu/cogeci-reproduction/repo-priority/models/llama3-8b-instruct",
+      "files": [
+        {
+          "file": "LICENSE",
+          "sha256": "475211637354ce4c14b9c3dacccbefbaba735fe1b0db97d6c4fd11cd1356819f",
+          "size": 7801,
+          "official_git_blob": "4c763399690c7fec642231350756e4ee9184b5ce",
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "USE_POLICY.md",
+          "sha256": "003513f595a20b7d63c609dfe80879531acb9caef6376fcc109bf0827471f3d1",
+          "size": 4696,
+          "official_git_blob": "6f8e5f6e3243c92046a133c92eb62b1ed7975a0b",
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "config.json",
+          "sha256": "61f3de03a16ca8046b05dc777bce72717022bc8522152eee61a69072272ef54b",
+          "size": 654,
+          "official_git_blob": "31553d63b8f18df5d6d440860751533ada3759e4",
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "generation_config.json",
+          "sha256": "d1af74d8ba49428ab2faa65f7948165cc6bf52b740e57e840f8af772587c894c",
+          "size": 187,
+          "official_git_blob": "8675015d20a4b12ee2ee0197a0937beba318122a",
+          "verified_against": "HF pinned tree"
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "sha256": "d8cf9c4d0dd972e1a2131bfe656235ee98221679711a3beef6d46dadf0f20b5c",
+          "size": 4976698672,
+          "official_git_blob": "69e1a8787496ffc0b3818d23d11036ef12e9eb8d",
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/modelscope/Meta-Llama-3-8B-Instruct/resolve/81139b0dd21879d107f610b4d1d6703f0235cfe6/model-00001-of-00004.safetensors?download=true"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "sha256": "8d4782b4a69ef03845159ce1a15e272aadaaf134dc138d68f616098e8531729c",
+          "size": 4999802720,
+          "official_git_blob": "3a8b51f9a991e3118837b93445a3f4647125a085",
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/modelscope/Meta-Llama-3-8B-Instruct/resolve/81139b0dd21879d107f610b4d1d6703f0235cfe6/model-00002-of-00004.safetensors?download=true"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "sha256": "3acdd690e65c24f42a24581b8467af98bd3ca357444580f8012aacd2bd607921",
+          "size": 4915916176,
+          "official_git_blob": "706b3a174d9f0de9aec8b81231e32f349bfe4fe0",
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/modelscope/Meta-Llama-3-8B-Instruct/resolve/81139b0dd21879d107f610b4d1d6703f0235cfe6/model-00003-of-00004.safetensors?download=true"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "sha256": "67e9ad31c8c32abf3a55ee7fc7217b3ecb35fd3c74d98a5bd233e0e4d6964f46",
+          "size": 1168138808,
+          "official_git_blob": "280b9208b3412064a64594f4449cf89dfa014353",
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/modelscope/Meta-Llama-3-8B-Instruct/resolve/81139b0dd21879d107f610b4d1d6703f0235cfe6/model-00004-of-00004.safetensors?download=true"
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "sha256": "146776fce3f6db1103aa6f249e65ee5544c5923ce6f971b092eee79aa6e5d37b",
+          "size": 23950,
+          "official_git_blob": "0fd8120f1c6acddc268ebc2583058efaf699a771",
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/modelscope/Meta-Llama-3-8B-Instruct/resolve/81139b0dd21879d107f610b4d1d6703f0235cfe6/model.safetensors.index.json?download=true"
+        },
+        {
+          "file": "special_tokens_map.json",
+          "sha256": "462d91939dbc37178aa5a3eae7068d1990ccc92e09f288cc71f42cdf139d69cc",
+          "size": 73,
+          "official_git_blob": "d8cd5076496dbe4be2320312abc10adc43097b81",
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/modelscope/Meta-Llama-3-8B-Instruct/resolve/81139b0dd21879d107f610b4d1d6703f0235cfe6/special_tokens_map.json?download=true"
+        },
+        {
+          "file": "tokenizer.json",
+          "sha256": "e134af98b985517b4f068e3755ae90d4e9cd2d45d328325dc503f1c6b2d06cc7",
+          "size": 9085698,
+          "official_git_blob": "b197f72effb9d5ed16ee0f5663e11e4cfac2ba62",
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/modelscope/Meta-Llama-3-8B-Instruct/resolve/7d620e962eb7f794a5f25ec9ebe8e95db2d0ae49/tokenizer.json?download=true"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "sha256": "da0e3a7cce6e4d787e85eb1c24d548420e0d7fe2c7a214e192795c46e40d75bb",
+          "size": 50977,
+          "official_git_blob": "1bfd1146b7bde6168de7bb673bfe0acaea6e684c",
+          "verified_against": "HF pinned tree",
+          "source": "https://modelscope.cn/models/modelscope/Meta-Llama-3-8B-Instruct/resolve/26a3b8f982ea07573bdcdcac3102b668af6a09ee/tokenizer_config.json?download=true"
+        }
+      ]
+    }
+  },
+  "checks": {
+    "gradient": {
+      "test": "actual loop and parameter groups; small CPU tensors",
+      "checks": [
+        {
+          "loss_type": "focal",
+          "context_gradient_nonzero": true,
+          "labels_change_gradient": true,
+          "optimizer_covers_all_parameters": true,
+          "parameters_updated": [
+            "GraphConv.weight",
+            "inter_CGE.proj.event.weight",
+            "linear3.weight"
+          ]
+        },
+        {
+          "loss_type": "ce",
+          "context_gradient_nonzero": true,
+          "labels_change_gradient": true,
+          "optimizer_covers_all_parameters": true,
+          "parameters_updated": [
+            "GraphConv.weight",
+            "inter_CGE.proj.event.weight",
+            "linear3.weight"
+          ]
+        }
+      ]
+    },
+    "runtime": {
+      "exit_code": 0,
+      "thermal_stop": false
+    },
+    "maximum_document_with_adam": {
+      "exit_code": 0,
+      "thermal_stop": false
+    },
+    "peak_memory": {
+      "paths": [
+        {
+          "variant": "maven",
+          "doc_id": "d2b256945da96b92915adec7b523f11a",
+          "pairs": 5886,
+          "sentences": 40,
+          "bert_length": 104,
+          "peak_memory_bytes": 8046639616
+        }
+      ],
+      "maven_largest_pair_sentence_product_doc": "d2b256945da96b92915adec7b523f11a"
+    },
+    "cosine_equivalence": [
+      {
+        "dtype": "torch.float32",
+        "scores_match": true,
+        "gradients_match": true,
+        "max_score_error": 1.7881393432617188e-07
+      },
+      {
+        "dtype": "torch.float64",
+        "scores_match": true,
+        "gradients_match": true,
+        "max_score_error": 8.326672684688674e-17
+      }
+    ],
+    "label_parser": {
+      "actual_contexts_checked": 703,
+      "malformed_answers": [
+        "train/3_11/pair/40"
+      ],
+      "missing_bracket_maps_to_None": true,
+      "out_of_range_matches_original_loader": true
+    }
+  },
+  "threshold_sweep": "not applicable: hard training threshold removed by selected fix",
+  "label_parse_policy": "Original malformed answer -> None; out-of-range integers ignored; raw replies and anomalies retained",
+  "run_root": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed",
+  "gpu": 1,
+  "thermal_limit_c": 85,
+  "experiment_scope": {
+    "updated_unix": 1793940560.2794588,
+    "user_request": "Cancel ablations and parameter sweeps; use both GPUs for MAVEN main experiment",
+    "remaining_experiments": [
+      "llama8b_maven_main"
+    ],
+    "training_gpus": [
+      1,
+      0
+    ],
+    "parallelism": "BERT sentence encoding uses both GPUs within each document; graph and loss use physical GPU 1",
+    "training_batch_size": 1,
+    "epochs": 30,
+    "label_generation": "Two document-disjoint Llama3-8B workers on physical GPUs 0 and 1; merge audited caches before training",
+    "before_training": "Run dual-GPU MAVEN train/evaluate/checkpoint-reload smoke test",
+    "thermal_guard": "Monitor both GPUs every 10 seconds; stop this task at 85 C and require confirmation to resume",
+    "label_sampling_note": "Each worker uses seed 209; sharding changes the subsequent stochastic sampling order",
+    "label_parallel_plan": "/home/dancer/tu/cogeci-reproduction/repo-priority/data/maven_label_parallel_plan.json",
+    "label_parallel_switched_unix": 1793941419.346303
+  },
+  "code_hashes_before_dual_gpu": {
+    "CogECI-cgl-fixed/model/model.py": "0e5bca34b67d11128ee9eaa15a8011ffabc8c77defcc258327cabcdcb210c6c7",
+    "CogECI-cgl-fixed/main.py": "cfca6e067c0a4b06dc71e8e068a8b6f77ce11f82029d4a6d09850bba7b1ae5aa",
+    "scripts/pipeline_cgl_fixed.py": "0b3a0be3c96089d2b9480d87e4afdb0e541ee16bbfcc0dc9e2aa72e31f193074",
+    "scripts/label_local.py": "91a24bb44098d46a3271a1079b18642bf4e1665125e5c2db4595f55514459373"
+  },
+  "dual_gpu_runtime_validation": {
+    "status": {
+      "exit_code": 0,
+      "thermal_stop": false
+    },
+    "checkpoint_reload_verified": true
+  },
+  "updated_at": "2026-11-06T12:51:02.677359",
+  "gpu0_parallel_label_smoke": {
+    "status": {
+      "exit_code": 0,
+      "thermal_stop": false
+    },
+    "run_dir": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_maven_gpu0_label_smoke"
+  }
+}

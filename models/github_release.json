@@ -1,0 +1,10 @@
+{
+  "repo_id": "TT-t-1/CogECI-ESL",
+  "tag": "v1.0.0",
+  "url": "https://github.com/TT-t-1/CogECI-ESL/releases/tag/v1.0.0",
+  "assets": {
+    "models/E0/fold_1_best.pt": "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E0_fold_1_best.pt",
+    "models/E1/fold_1_best.pt": "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E1_fold_1_best.pt",
+    "models/E2/fold_1_best.pt": "https://github.com/TT-t-1/CogECI-ESL/releases/download/v1.0.0/E2_fold_1_best.pt"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/home/dancer/tu/cogeci-reproduction/env/bin/python",
+    "-u",
+    "/home/dancer/tu/cogeci-reproduction/repo-priority/scripts/train_e0.py",
+    "--run_dir",
+    "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-e0/esl_fold1",
+    "--epoch",
+    "30"
+  ],
+  "gpus": [
+    1,
+    0
+  ],
+  "baseline_c": {
+    "1": 44,
+    "0": 39
+  }
+}

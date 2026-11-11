@@ -1,0 +1,63 @@
+--- a/model/model.py
++++ b/model/model.py
+@@ -318,17 +318,13 @@
+             event_pair = self.linear3(event_pair)
+             event_pair = F.normalize(event_pair, p=2, dim=1)  # (实体对数, 768)
+             sent_emb = F.normalize(sent_emb, p=2, dim=1)  # (句子数, 768)
+-            event_expanded = event_pair.unsqueeze(1).expand(-1, sent_emb.size(0),-1)  # [事件对数, 句子数, 768]
+-            sentence_expanded = sent_emb.squeeze(1).unsqueeze(0).expand(event_pair.size(0), -1,-1)  # [事件对数, 句子数, 768]
+-            cosine_sim=F.cosine_similarity(event_expanded,sentence_expanded,dim=2)# 事件对数，句子数
+-            # cosine_sim = F.softmax(cosine_sim,dim=1)
+-            flag = 1 / cosine_sim.size(1) if self.context_threshold == '1/n' else float(self.context_threshold)
+-            cosine_sim=(cosine_sim>flag).float()
++            # [pairs, dim] @ [dim, sentences] avoids expanded autograd buffers.
++            normalized_pairs = F.normalize(event_pair, p=2, dim=1, eps=1e-8)
++            normalized_sentences = F.normalize(sent_emb, p=2, dim=1, eps=1e-8)
++            cosine_sim = normalized_pairs @ normalized_sentences.t()
++            # User-selected side-chat fix: continuous logits preserve context gradients.
+             sen_loss = self.bce_loss(cosine_sim.float(), all_senlable.float())
+-            if self.loss_type == 'focal':
+-                loss += (1 / (iteration + 1))* w *sen_loss
+-            else:
+-                loss += (1 / (iteration + 1)) * self.ce_loss(prediction, target)
++            loss += (1 / (iteration + 1)) * w * sen_loss
+             iteration += 1
+             prediction_1 = prediction
+             c=c+1
+--- a/main.py
++++ b/main.py
+@@ -304,20 +304,16 @@
+         model = model_class(args).to(args.device)
+         model.to(args.device)
+         no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
++        other_parameters = [(n, p) for n, p in model.named_parameters()
++                            if not n.startswith('pretrained_model.')]
+         optimizer_grouped_parameters = [
+             {'params': [p for n, p in model.pretrained_model.named_parameters() if not any(nd in n for nd in no_decay)],
+              'weight_decay': args.weight_decay, 'lr': args.t_lr},
+             {'params': [p for n, p in model.pretrained_model.named_parameters() if any(nd in n for nd in no_decay)],
+              'weight_decay': 0.0, 'lr': args.t_lr},
+-
+-            {'params': [p for n, p in model.mlp.named_parameters() if not any(nd in n for nd in no_decay)],
++            {'params': [p for n, p in other_parameters if not any(nd in n for nd in no_decay)],
+              'weight_decay': args.weight_decay},
+-            {'params': [p for n, p in model.mlp.named_parameters() if any(nd in n for nd in no_decay)],
+-             'weight_decay': 0.0},
+-
+-            {'params': [p for n, p in model.CGE.named_parameters() if not any(nd in n for nd in no_decay)],
+-             'weight_decay': args.weight_decay},
+-            {'params': [p for n, p in model.CGE.named_parameters() if any(nd in n for nd in no_decay)],
++            {'params': [p for n, p in other_parameters if any(nd in n for nd in no_decay)],
+              'weight_decay': 0.0}
+         ]
+ 
+@@ -410,6 +406,9 @@
+ 
+ def main():
+     args = parse_args()
++    args.implementation = 'user_selected_cgl_gradient_fix'
++    if args.context_threshold != '1/n':
++        raise ValueError('The selected continuous CGL fix has no training threshold; this sweep is undefined.')
+     Path(args.run_dir).mkdir(parents=True, exist_ok=True)
+     Path(args.run_dir, 'args.json').write_text(json.dumps(vars(args), indent=2))
+     torch.cuda.empty_cache()

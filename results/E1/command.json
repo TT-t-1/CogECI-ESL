@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "/home/dancer/tu/cogeci-reproduction/env/bin/python",
+    "-u",
+    "main.py",
+    "--run_dir",
+    "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_esl_main",
+    "--dataset_type",
+    "EventStoryLine",
+    "--cache_path",
+    "/home/dancer/tu/cogeci-reproduction/repo-priority/data/esl",
+    "--model_name",
+    "bert-base-uncased",
+    "--seed",
+    "209",
+    "--epoch",
+    "30",
+    "--beta_intra",
+    ".3",
+    "--beta_inter",
+    ".7",
+    "--method",
+    "llama8b_esl_main"
+  ],
+  "gpu": 1,
+  "baseline_c": 51
+}

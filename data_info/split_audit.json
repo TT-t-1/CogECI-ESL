@@ -1,0 +1,237 @@
+[
+  {
+    "fold": 1,
+    "counts": {
+      "train": {
+        "documents": 186,
+        "events": 3807,
+        "pairs": 50746,
+        "positive": 4083,
+        "intra_pairs": 7446,
+        "inter_pairs": 43300,
+        "intra_positive": 1300,
+        "inter_positive": 2783,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "test": {
+        "documents": 47,
+        "events": 861,
+        "pairs": 10319,
+        "positive": 850,
+        "intra_pairs": 1553,
+        "inter_pairs": 8766,
+        "intra_positive": 275,
+        "inter_positive": 575,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "dev": {
+        "documents": 25,
+        "events": 666,
+        "pairs": 9514,
+        "positive": 545,
+        "intra_pairs": 1348,
+        "inter_pairs": 8166,
+        "intra_positive": 176,
+        "inter_positive": 369,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      }
+    },
+    "document_intersections": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "directed_cycles": "not applicable to binary undirected existence labels"
+  },
+  {
+    "fold": 2,
+    "counts": {
+      "train": {
+        "documents": 186,
+        "events": 3677,
+        "pairs": 47190,
+        "positive": 3837,
+        "intra_pairs": 6924,
+        "inter_pairs": 40266,
+        "intra_positive": 1236,
+        "inter_positive": 2601,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "test": {
+        "documents": 47,
+        "events": 991,
+        "pairs": 13875,
+        "positive": 1096,
+        "intra_pairs": 2075,
+        "inter_pairs": 11800,
+        "intra_positive": 339,
+        "inter_positive": 757,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "dev": {
+        "documents": 25,
+        "events": 666,
+        "pairs": 9514,
+        "positive": 545,
+        "intra_pairs": 1348,
+        "inter_pairs": 8166,
+        "intra_positive": 176,
+        "inter_positive": 369,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      }
+    },
+    "document_intersections": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "directed_cycles": "not applicable to binary undirected existence labels"
+  },
+  {
+    "fold": 3,
+    "counts": {
+      "train": {
+        "documents": 186,
+        "events": 3696,
+        "pairs": 48539,
+        "positive": 3935,
+        "intra_pairs": 7157,
+        "inter_pairs": 41382,
+        "intra_positive": 1248,
+        "inter_positive": 2687,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "test": {
+        "documents": 47,
+        "events": 972,
+        "pairs": 12526,
+        "positive": 998,
+        "intra_pairs": 1842,
+        "inter_pairs": 10684,
+        "intra_positive": 327,
+        "inter_positive": 671,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "dev": {
+        "documents": 25,
+        "events": 666,
+        "pairs": 9514,
+        "positive": 545,
+        "intra_pairs": 1348,
+        "inter_pairs": 8166,
+        "intra_positive": 176,
+        "inter_positive": 369,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      }
+    },
+    "document_intersections": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "directed_cycles": "not applicable to binary undirected existence labels"
+  },
+  {
+    "fold": 4,
+    "counts": {
+      "train": {
+        "documents": 187,
+        "events": 3737,
+        "pairs": 48745,
+        "positive": 3964,
+        "intra_pairs": 7288,
+        "inter_pairs": 41457,
+        "intra_positive": 1254,
+        "inter_positive": 2710,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "test": {
+        "documents": 46,
+        "events": 931,
+        "pairs": 12320,
+        "positive": 969,
+        "intra_pairs": 1711,
+        "inter_pairs": 10609,
+        "intra_positive": 321,
+        "inter_positive": 648,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "dev": {
+        "documents": 25,
+        "events": 666,
+        "pairs": 9514,
+        "positive": 545,
+        "intra_pairs": 1348,
+        "inter_pairs": 8166,
+        "intra_positive": 176,
+        "inter_positive": 369,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      }
+    },
+    "document_intersections": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "directed_cycles": "not applicable to binary undirected existence labels"
+  },
+  {
+    "fold": 5,
+    "counts": {
+      "train": {
+        "documents": 187,
+        "events": 3755,
+        "pairs": 49040,
+        "positive": 3913,
+        "intra_pairs": 7181,
+        "inter_pairs": 41859,
+        "intra_positive": 1262,
+        "inter_positive": 2651,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "test": {
+        "documents": 46,
+        "events": 913,
+        "pairs": 12025,
+        "positive": 1020,
+        "intra_pairs": 1818,
+        "inter_pairs": 10207,
+        "intra_positive": 313,
+        "inter_positive": 707,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      },
+      "dev": {
+        "documents": 25,
+        "events": 666,
+        "pairs": 9514,
+        "positive": 545,
+        "intra_pairs": 1348,
+        "inter_pairs": 8166,
+        "intra_positive": 176,
+        "inter_positive": 369,
+        "duplicate_pairs": 0,
+        "conflicting_labels": 0
+      }
+    },
+    "document_intersections": {
+      "train_dev": 0,
+      "train_test": 0,
+      "dev_test": 0
+    },
+    "directed_cycles": "not applicable to binary undirected existence labels"
+  }
+]

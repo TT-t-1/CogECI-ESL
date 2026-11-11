@@ -1,0 +1,66 @@
+/home/dancer/miniconda3/envs/cftar/lib/python3.10/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/home/dancer/miniconda3/envs/cftar/lib/python3.10/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+2026-11-04 20:08:18.797435: Training/evaluation parameters :Namespace(dataset_type='EventStoryLine', cache_path='/home/dancer/tu/cogeci-reproduction/repo-priority/data/esl', model_type='bert', inter_or_intra='intra_and_inter', k_fold=5, disable_cuda=False, use_cache=True, in_channels={'event': 768}, in_channels_sent={'event': 768, 'sent': 768}, metadata=(['event'], [('event', 'intra', 'event'), ('event', 'inter', 'event')]), beta_inter=0.7, beta_intra=0.3, model_name='bert-base-uncased', mlp_size=2304, mlp_drop=0.4, n_last=768, threshold=2, w=0.6, gamma=2.0, no_of_classes=2, loss_type='focal', max_iteration=9, min_iteration=2, num_heads=4, seed=209, batch_size=1, epoch=1, t_lr=2e-05, lr=0.0001, method='CGC_CGEllama3_sen_llm0.1', gradient_accumulation_steps=1, weight_decay=0.01, rate=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, warm_up_ratio=0.1, class_weight=0.75, logging_steps=50, valid_epoch=1, test_epoch=1, log='logout/seed:209/t_lr2e-05lr0.00012026-11-04 20_08_18CGC_CGEllama3_sen_llm0.1.txt', run_dir='/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/runtime_smoke', context_beta=6.0, sgm_layers=2, no_sgm=False, shared_dscrm=False, context_threshold='1/n', graph_encoder='gat', smoke=True, device=device(type='cuda'))
+2026-11-04 20:08:18.797918: train dataloader generation
+2026-11-04 20:08:19.791482: load features from /home/dancer/tu/cogeci-reproduction/repo-priority/data/esl/EventStoryLine_bert_intra_and_inter_train_features.pkl
+2026-11-04 20:08:19.791850: dev dataloader generation
+2026-11-04 20:08:19.889961: load features from /home/dancer/tu/cogeci-reproduction/repo-priority/data/esl/EventStoryLine_bert_intra_and_inter_dev_features.pkl
+2026-11-04 20:08:19.892005: Fold 1
+/home/dancer/miniconda3/envs/cftar/lib/python3.10/site-packages/transformers/optimization.py:429: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train 1:   0%|                                       | 0/2 [00:00<?, ?it/s]2026-11-04 20:08:22.460060: Step 0: Train Loss 9.80620288848877 P 0.1429 R 0.3611 F1 0.2047
+Train 1: 100%|███████████████████████████████| 2/2 [00:01<00:00,  1.50it/s]Train 1: 100%|███████████████████████████████| 2/2 [00:03<00:00,  1.64s/it]
+2026-11-04 20:08:24.436921: 	INTRA-SENTENCE:
+2026-11-04 20:08:24.437130: 		TP: 16, TP+FP: 91, TP+FN: 16
+2026-11-04 20:08:24.437322: 		precision score: 0.1758241758222437
+2026-11-04 20:08:24.437504: 		recall score: 0.9999999999375
+2026-11-04 20:08:24.437683: 		f1 score: 0.2990654203008123
+2026-11-04 20:08:24.437906: 	CINTER-SENTENCE:
+2026-11-04 20:08:24.438081: 		TP: 4, TP+FP: 121, TP+FN: 31
+2026-11-04 20:08:24.438255: 		precision score: 0.03305785123939622
+2026-11-04 20:08:24.438439: 		recall score: 0.1290322580603538
+2026-11-04 20:08:24.438614: 		f1 score: 0.05263157862197022
+2026-11-04 20:08:24.448597: Epoch1: Train Loss 10.436296939849854 R 0.425531914893617 P 0.09433962264150944 F 0.15444015444015446
+2026-11-04 20:08:25.895954: 	INTRA-SENTENCE:
+2026-11-04 20:08:25.896173: 		TP: 2, TP+FP: 28, TP+FN: 8
+2026-11-04 20:08:25.896362: 		precision score: 0.07142857142602041
+2026-11-04 20:08:25.896540: 		recall score: 0.24999999996875
+2026-11-04 20:08:25.896721: 		f1 score: 0.11111111075925925
+2026-11-04 20:08:25.896978: 	CINTER-SENTENCE:
+2026-11-04 20:08:25.897154: 		TP: 0, TP+FP: 0, TP+FN: 10
+2026-11-04 20:08:25.897335: 		precision score: 0.0
+2026-11-04 20:08:25.897514: 		recall score: 0.0
+2026-11-04 20:08:25.897693: 		f1 score: 0.0
+2026-11-04 20:08:25.898000: Epoch1: Test Loss 7.939405918121338 R 0.1111111111111111 P 0.07142857142857142 F 0.08695652173913043 intra{'epoch': 1, 'p': 0.07142857142602041, 'r': 0.24999999996875, 'f1': 0.11111111075925925} cross{'epoch': 1, 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+2026-11-04 20:08:27.900695: 	INTRA-SENTENCE:
+2026-11-04 20:08:27.900948: 		TP: 0, TP+FP: 4, TP+FN: 25
+2026-11-04 20:08:27.901137: 		precision score: 0.0
+2026-11-04 20:08:27.901319: 		recall score: 0.0
+2026-11-04 20:08:27.901499: 		f1 score: 0.0
+2026-11-04 20:08:27.901678: 	CINTER-SENTENCE:
+2026-11-04 20:08:27.901864: 		TP: 0, TP+FP: 0, TP+FN: 34
+2026-11-04 20:08:27.902043: 		precision score: 0.0
+2026-11-04 20:08:27.902220: 		recall score: 0.0
+2026-11-04 20:08:27.902395: 		f1 score: 0.0
+2026-11-04 20:08:27.902709: Epoch1: Valid Loss 6.538089275360107 R 0.0 P 0.0 F 0.0 intra{'epoch': 1, 'p': 0.0, 'r': 0.0, 'f1': 0.0} cross{'epoch': 1, 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+2026-11-04 20:08:33.764801: 	INTRA-SENTENCE:
+2026-11-04 20:08:33.765059: 		TP: 2, TP+FP: 28, TP+FN: 8
+2026-11-04 20:08:33.765264: 		precision score: 0.07142857142602041
+2026-11-04 20:08:33.765460: 		recall score: 0.24999999996875
+2026-11-04 20:08:33.765654: 		f1 score: 0.11111111075925925
+2026-11-04 20:08:33.765853: 	CINTER-SENTENCE:
+2026-11-04 20:08:33.766044: 		TP: 0, TP+FP: 0, TP+FN: 10
+2026-11-04 20:08:33.766235: 		precision score: 0.0
+2026-11-04 20:08:33.766416: 		recall score: 0.0
+2026-11-04 20:08:33.766607: 		f1 score: 0.0
+2026-11-04 20:08:33.766925: SMOKE checkpoint reload predictions verified
+2026-11-04 20:08:33.767151: Fold 1: R 0.1111111111111111 P 0.07142857142857142 F 0.08695652173913043 intra{'epoch': 1, 'p': 0.07142857142602041, 'r': 0.24999999996875, 'f1': 0.11111111075925925} cross{'epoch': 1, 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+2026-11-04 20:08:33.767349: 
+-------------------------Causality Direction Identification-------------------------
+
+2026-11-04 20:08:33.767648: --------  	 Intra: P 0.07142857142602041 R 0.24999999996875 F1 0.11111111075925925 
+	 Cross: P 0.0 R 0.0 F1 0.0  
+	 5-Fold Avg: P 0.07142857142857142 R 0.1111111111111111 F1 0.08695652173913043---------
+Runtime smoke passed; corrected context loss has a gradient

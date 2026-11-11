@@ -1,0 +1,14 @@
+{
+  "models/E0/fold_1_best.pt": {
+    "bytes": 459274776,
+    "sha256": "23d85801bb204a5bf2645870cd3f2ca310aa818a1a97e094df7910956c122626"
+  },
+  "models/E1/fold_1_best.pt": {
+    "bytes": 533106332,
+    "sha256": "28310daf781ffe9d4cd68140ef2fcb56eb2ed3ad1effdf8f88b3a928f0951baf"
+  },
+  "models/E2/fold_1_best.pt": {
+    "bytes": 533106332,
+    "sha256": "8e7797e449acb547c47c2586e5090a0e8149c5f9c349095f67ec6c64d4116e90"
+  }
+}

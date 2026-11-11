@@ -1,0 +1,84 @@
+{
+  "validation_date_local": "2026-11-07",
+  "cpu_metric_recalculation": {
+    "completed_folds": 15,
+    "selected_cases": 7,
+    "overall_precision_recall_f1_match": true,
+    "intra_and_inter_f1_match": true
+  },
+  "checkpoint_reload": {
+    "host_alias": "24tuwk",
+    "entrypoint": "code/demo.py",
+    "fixture": "existing server source, cache and checkpoints linked into a temporary submission directory",
+    "doc_id": "1_1",
+    "event_pairs_per_experiment": 496,
+    "E0_matches_archived_predictions": true,
+    "E1_matches_archived_predictions": true,
+    "E2_matches_archived_predictions": true,
+    "training_started": false
+  },
+  "data_download_url_head_status": 200,
+  "scope": "Existing trained checkpoints were evaluated; no new full training run was performed during packaging.",
+  "weight_publication": {
+    "repo_id": "tuwk/CogECI-ESL-checkpoints",
+    "url": "https://huggingface.co/tuwk/CogECI-ESL-checkpoints",
+    "visibility": "public",
+    "revision": "fd4feb58084f7b28a03a9b80abac5724d5e25078",
+    "upload_status": "completed",
+    "remote_sha256_match": true,
+    "verification_date_local": "2026-11-11",
+    "files": [
+      {
+        "path": "E0/fold_1_best.pt",
+        "bytes": 459274776,
+        "sha256": "23d85801bb204a5bf2645870cd3f2ca310aa818a1a97e094df7910956c122626",
+        "downloads": [
+          {
+            "url": "https://huggingface.co/tuwk/CogECI-ESL-checkpoints/resolve/main/E0/fold_1_best.pt?download=true",
+            "status": 206,
+            "public_download_prefix_matches": true
+          },
+          {
+            "url": "https://huggingface.co/tuwk/CogECI-ESL-checkpoints/resolve/fd4feb58084f7b28a03a9b80abac5724d5e25078/E0/fold_1_best.pt?download=true",
+            "status": 206,
+            "public_download_prefix_matches": true
+          }
+        ]
+      },
+      {
+        "path": "E1/fold_1_best.pt",
+        "bytes": 533106332,
+        "sha256": "28310daf781ffe9d4cd68140ef2fcb56eb2ed3ad1effdf8f88b3a928f0951baf",
+        "downloads": [
+          {
+            "url": "https://huggingface.co/tuwk/CogECI-ESL-checkpoints/resolve/main/E1/fold_1_best.pt?download=true",
+            "status": 206,
+            "public_download_prefix_matches": true
+          },
+          {
+            "url": "https://huggingface.co/tuwk/CogECI-ESL-checkpoints/resolve/fd4feb58084f7b28a03a9b80abac5724d5e25078/E1/fold_1_best.pt?download=true",
+            "status": 206,
+            "public_download_prefix_matches": true
+          }
+        ]
+      },
+      {
+        "path": "E2/fold_1_best.pt",
+        "bytes": 533106332,
+        "sha256": "8e7797e449acb547c47c2586e5090a0e8149c5f9c349095f67ec6c64d4116e90",
+        "downloads": [
+          {
+            "url": "https://huggingface.co/tuwk/CogECI-ESL-checkpoints/resolve/main/E2/fold_1_best.pt?download=true",
+            "status": 206,
+            "public_download_prefix_matches": true
+          },
+          {
+            "url": "https://huggingface.co/tuwk/CogECI-ESL-checkpoints/resolve/fd4feb58084f7b28a03a9b80abac5724d5e25078/E2/fold_1_best.pt?download=true",
+            "status": 206,
+            "public_download_prefix_matches": true
+          }
+        ]
+      }
+    ]
+  }
+}

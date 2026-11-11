@@ -1,0 +1,3196 @@
+{
+  "source_commit": "46edefee5e82e0917b823abe0a18bf8c7770f15c",
+  "counts": {
+    "unmatched_cache_sentences": 1,
+    "source_extended_positive_pairs": 5602,
+    "cache_positive_pairs": 5478,
+    "unmapped_cache_events": 32,
+    "missing_from_cache": 80,
+    "extra_in_cache": 69,
+    "gold_outside_candidate_set": 0
+  },
+  "documents": [
+    {
+      "doc_id": "1_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "no_gold_file_and_no_direct_causal_links": true,
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_12",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_13",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_14",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_15",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_16",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_17",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "no_gold_file_and_no_direct_causal_links": true,
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_18",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "150",
+          "45"
+        ],
+        [
+          "150",
+          "92_93"
+        ],
+        [
+          "45",
+          "92_93"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_19",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_20",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "1_21",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "3_1",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 0,
+          "span": [
+            0,
+            10,
+            12
+          ]
+        },
+        {
+          "event": 5,
+          "span": [
+            2,
+            10,
+            12
+          ]
+        },
+        {
+          "event": 7,
+          "span": [
+            2,
+            22,
+            24
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "3_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "3_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "3_4",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 10,
+          "span": [
+            2,
+            23,
+            25
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "3_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "158",
+          "63"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "3_6",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 8,
+          "span": [
+            3,
+            12,
+            14
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "3_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "126",
+          "22"
+        ],
+        [
+          "126",
+          "30"
+        ],
+        [
+          "126",
+          "67"
+        ],
+        [
+          "22",
+          "30"
+        ],
+        [
+          "22",
+          "67"
+        ],
+        [
+          "30",
+          "67"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "3_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "121",
+          "144"
+        ],
+        [
+          "121",
+          "155"
+        ],
+        [
+          "121",
+          "208"
+        ],
+        [
+          "121",
+          "38"
+        ],
+        [
+          "121",
+          "95"
+        ],
+        [
+          "144",
+          "155"
+        ],
+        [
+          "144",
+          "208"
+        ],
+        [
+          "144",
+          "38"
+        ],
+        [
+          "144",
+          "95"
+        ],
+        [
+          "155",
+          "208"
+        ],
+        [
+          "155",
+          "38"
+        ],
+        [
+          "155",
+          "95"
+        ],
+        [
+          "208",
+          "38"
+        ],
+        [
+          "208",
+          "95"
+        ],
+        [
+          "38",
+          "95"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "3_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "3_10",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 17,
+          "span": [
+            4,
+            7,
+            9
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "3_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "no_gold_file_and_no_direct_causal_links": true,
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "4_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "5_1",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 1,
+          "span": [
+            0,
+            14,
+            16
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "5_2",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 1,
+          "span": [
+            2,
+            4,
+            6
+          ]
+        },
+        {
+          "event": 24,
+          "span": [
+            12,
+            22,
+            26
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "5_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "5_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "5_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "5_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "5_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "5_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "5_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "215",
+          "232"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "5_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "7_1",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 3,
+          "span": [
+            2,
+            17,
+            21
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "7_2",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 6,
+          "span": [
+            4,
+            5,
+            7
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "7_3",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 4,
+          "span": [
+            3,
+            17,
+            21
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "7_4",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 2,
+          "span": [
+            0,
+            17,
+            21
+          ]
+        },
+        {
+          "event": 3,
+          "span": [
+            1,
+            5,
+            7
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "7_5",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 13,
+          "span": [
+            3,
+            25,
+            27
+          ]
+        },
+        {
+          "event": 28,
+          "span": [
+            7,
+            17,
+            20
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "7_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "7_7",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 10,
+          "span": [
+            3,
+            16,
+            18
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "7_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "7_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "7_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "7_11",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 5,
+          "span": [
+            2,
+            17,
+            21
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "8_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "8_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "8_3",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 20,
+          "span": [
+            5,
+            13,
+            16
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "8_4",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 4,
+          "span": [
+            1,
+            11,
+            13
+          ]
+        },
+        {
+          "event": 14,
+          "span": [
+            2,
+            15,
+            17
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "8_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "8_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "8_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "8_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "8_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "124",
+          "170"
+        ],
+        [
+          "124",
+          "40"
+        ],
+        [
+          "124",
+          "57"
+        ],
+        [
+          "124",
+          "62"
+        ],
+        [
+          "170",
+          "40"
+        ],
+        [
+          "170",
+          "57"
+        ],
+        [
+          "170",
+          "62"
+        ],
+        [
+          "40",
+          "57"
+        ],
+        [
+          "40",
+          "62"
+        ],
+        [
+          "57",
+          "62"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "8_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "8_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "12_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "12_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "12_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "12_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "12_5",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 4,
+          "span": [
+            2,
+            19,
+            21
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "12_6",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 4,
+          "span": [
+            2,
+            20,
+            22
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "12_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "12_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "272",
+          "280"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "12_9",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 3,
+          "span": [
+            2,
+            20,
+            22
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "12_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "12_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "600",
+          "607_608"
+        ],
+        [
+          "607_608",
+          "75"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_12",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_13",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "13_14",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "no_gold_file_and_no_direct_causal_links": true,
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "14_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_5",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 1,
+          "span": [
+            0,
+            9,
+            11
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "16_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "16_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "126",
+          "189"
+        ],
+        [
+          "126",
+          "210"
+        ],
+        [
+          "126",
+          "212"
+        ],
+        [
+          "126",
+          "215"
+        ],
+        [
+          "126",
+          "35"
+        ],
+        [
+          "126",
+          "38"
+        ],
+        [
+          "126",
+          "49"
+        ],
+        [
+          "126",
+          "63"
+        ],
+        [
+          "126",
+          "78"
+        ],
+        [
+          "126",
+          "84"
+        ],
+        [
+          "189",
+          "210"
+        ],
+        [
+          "189",
+          "212"
+        ],
+        [
+          "189",
+          "215"
+        ],
+        [
+          "189",
+          "35"
+        ],
+        [
+          "189",
+          "38"
+        ],
+        [
+          "189",
+          "49"
+        ],
+        [
+          "189",
+          "63"
+        ],
+        [
+          "189",
+          "78"
+        ],
+        [
+          "189",
+          "84"
+        ],
+        [
+          "210",
+          "212"
+        ],
+        [
+          "210",
+          "215"
+        ],
+        [
+          "210",
+          "49"
+        ],
+        [
+          "210",
+          "78"
+        ],
+        [
+          "210",
+          "84"
+        ],
+        [
+          "212",
+          "215"
+        ],
+        [
+          "212",
+          "35"
+        ],
+        [
+          "212",
+          "38"
+        ],
+        [
+          "212",
+          "49"
+        ],
+        [
+          "212",
+          "63"
+        ],
+        [
+          "212",
+          "78"
+        ],
+        [
+          "212",
+          "84"
+        ],
+        [
+          "215",
+          "35"
+        ],
+        [
+          "215",
+          "38"
+        ],
+        [
+          "215",
+          "49"
+        ],
+        [
+          "215",
+          "63"
+        ],
+        [
+          "215",
+          "78"
+        ],
+        [
+          "215",
+          "84"
+        ],
+        [
+          "35",
+          "49"
+        ],
+        [
+          "35",
+          "78"
+        ],
+        [
+          "35",
+          "84"
+        ],
+        [
+          "38",
+          "49"
+        ],
+        [
+          "38",
+          "78"
+        ],
+        [
+          "38",
+          "84"
+        ],
+        [
+          "49",
+          "63"
+        ],
+        [
+          "49",
+          "78"
+        ],
+        [
+          "49",
+          "84"
+        ],
+        [
+          "63",
+          "78"
+        ],
+        [
+          "63",
+          "84"
+        ],
+        [
+          "78",
+          "84"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "18_10",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 8,
+          "span": [
+            2,
+            24,
+            26
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "18_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "323",
+          "47"
+        ],
+        [
+          "323",
+          "51"
+        ],
+        [
+          "323",
+          "98"
+        ],
+        [
+          "47",
+          "51"
+        ],
+        [
+          "47",
+          "98"
+        ],
+        [
+          "51",
+          "98"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "19_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "33",
+          "51"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "20_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_12",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_13",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "22_14",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "23_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "24_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "105",
+          "33"
+        ],
+        [
+          "105",
+          "50"
+        ],
+        [
+          "105",
+          "67"
+        ],
+        [
+          "105",
+          "96"
+        ],
+        [
+          "33",
+          "50"
+        ],
+        [
+          "33",
+          "67"
+        ],
+        [
+          "33",
+          "96"
+        ],
+        [
+          "50",
+          "67"
+        ],
+        [
+          "50",
+          "96"
+        ],
+        [
+          "67",
+          "96"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_12",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "111",
+          "63"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "30_13",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_1",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 15,
+          "span": [
+            9,
+            2,
+            3
+          ]
+        },
+        {
+          "event": 16,
+          "span": [
+            9,
+            17,
+            18
+          ]
+        }
+      ],
+      "unmatched_sentences": [
+        {
+          "sentence": 9,
+          "tokens": [
+            "Alice",
+            "lived",
+            "in",
+            "the",
+            "pebble",
+            "-",
+            "dashed",
+            "terrace",
+            "in",
+            "Millom",
+            ",",
+            "Cumbria",
+            ",",
+            "with",
+            "unemployed",
+            "John",
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "doc_id": "32_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "216",
+          "42_43"
+        ],
+        [
+          "216",
+          "71"
+        ],
+        [
+          "216",
+          "92"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "no_gold_file_and_no_direct_causal_links": true,
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "32_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "35_36",
+          "41"
+        ],
+        [
+          "35_36",
+          "77_78"
+        ],
+        [
+          "35_36",
+          "89"
+        ],
+        [
+          "41",
+          "77_78"
+        ],
+        [
+          "41",
+          "89"
+        ],
+        [
+          "77_78",
+          "89"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_2",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_6",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_7",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 11,
+          "span": [
+            4,
+            26,
+            28
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "33_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_9",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "149",
+          "85"
+        ],
+        [
+          "149",
+          "94"
+        ],
+        [
+          "85",
+          "94"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "33_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "151",
+          "35"
+        ],
+        [
+          "151",
+          "61"
+        ],
+        [
+          "151",
+          "87"
+        ],
+        [
+          "35",
+          "61"
+        ],
+        [
+          "35",
+          "87"
+        ],
+        [
+          "61",
+          "87"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "35_1",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "35_2",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 15,
+          "span": [
+            5,
+            5,
+            7
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "35_3",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "35_4",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "147_148",
+          "152"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "35_5",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "35_6",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 22,
+          "span": [
+            6,
+            24,
+            26
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "35_7",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "35_8",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "35_9",
+      "split": "train",
+      "unmapped_events": [
+        {
+          "event": 21,
+          "span": [
+            6,
+            31,
+            33
+          ]
+        }
+      ],
+      "unmatched_sentences": []
+    },
+    {
+      "doc_id": "35_10",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "35_11",
+      "split": "train",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_1",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "133",
+          "36_37"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_2",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "142",
+          "29_30_31_32_33_34"
+        ],
+        [
+          "142",
+          "50_51_52_53_54_55"
+        ],
+        [
+          "142",
+          "86"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_3",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_4",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_5",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_6",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_7",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_8",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_9",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_10",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_11",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "113",
+          "116"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_12",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_13",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "49",
+          "68"
+        ],
+        [
+          "56",
+          "68"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "37_14",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "38_39_40_41_42_43",
+          "48"
+        ],
+        [
+          "38_39_40_41_42_43",
+          "65"
+        ],
+        [
+          "57",
+          "65"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_1",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "34",
+          "54"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_2",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "16_17",
+          "37"
+        ],
+        [
+          "16_17",
+          "66"
+        ],
+        [
+          "37",
+          "66"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_3",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_4",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "213",
+          "22"
+        ],
+        [
+          "213",
+          "50"
+        ],
+        [
+          "213",
+          "99"
+        ],
+        [
+          "22",
+          "50"
+        ],
+        [
+          "22",
+          "99"
+        ],
+        [
+          "50",
+          "99"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_5",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_6",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [
+        [
+          "285",
+          "43"
+        ],
+        [
+          "298",
+          "43"
+        ],
+        [
+          "43",
+          "46"
+        ]
+      ],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_7",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_8",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [
+        [
+          "35",
+          "66"
+        ]
+      ],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_9",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_10",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    },
+    {
+      "doc_id": "41_11",
+      "split": "dev",
+      "unmapped_events": [],
+      "unmatched_sentences": [],
+      "missing_from_cache": [],
+      "extra_in_cache": [],
+      "gold_outside_candidate_set": []
+    }
+  ],
+  "note": "Audit only. The released cache is not relabeled or enlarged.",
+  "mapping_limit": "Missing/extra link counts compare only documents whose cached event spans all map exactly to raw v0.9. Other documents are listed without guessed mappings."
+}

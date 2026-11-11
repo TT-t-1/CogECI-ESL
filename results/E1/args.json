@@ -1,0 +1,73 @@
+{
+  "dataset_type": "EventStoryLine",
+  "cache_path": "/home/dancer/tu/cogeci-reproduction/repo-priority/data/esl",
+  "model_type": "bert",
+  "inter_or_intra": "intra_and_inter",
+  "k_fold": 5,
+  "disable_cuda": false,
+  "use_cache": true,
+  "in_channels": {
+    "event": 768
+  },
+  "in_channels_sent": {
+    "event": 768,
+    "sent": 768
+  },
+  "metadata": [
+    [
+      "event"
+    ],
+    [
+      [
+        "event",
+        "intra",
+        "event"
+      ],
+      [
+        "event",
+        "inter",
+        "event"
+      ]
+    ]
+  ],
+  "beta_inter": 0.7,
+  "beta_intra": 0.3,
+  "model_name": "bert-base-uncased",
+  "mlp_size": 2304,
+  "mlp_drop": 0.4,
+  "n_last": 768,
+  "threshold": 2,
+  "w": 0.6,
+  "gamma": 2.0,
+  "no_of_classes": 2,
+  "loss_type": "focal",
+  "max_iteration": 9,
+  "min_iteration": 2,
+  "num_heads": 4,
+  "seed": 209,
+  "batch_size": 1,
+  "epoch": 30,
+  "t_lr": 2e-05,
+  "lr": 0.0001,
+  "method": "llama8b_esl_main",
+  "gradient_accumulation_steps": 1,
+  "weight_decay": 0.01,
+  "rate": 0.0,
+  "adam_epsilon": 1e-08,
+  "max_grad_norm": 1.0,
+  "warm_up_ratio": 0.1,
+  "class_weight": 0.75,
+  "logging_steps": 50,
+  "valid_epoch": 1,
+  "test_epoch": 1,
+  "log": "",
+  "run_dir": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_esl_main",
+  "context_beta": 6.0,
+  "sgm_layers": 2,
+  "no_sgm": false,
+  "shared_dscrm": false,
+  "context_threshold": "1/n",
+  "graph_encoder": "gat",
+  "smoke": false,
+  "implementation": "user_selected_cgl_gradient_fix"
+}

@@ -1,0 +1,57 @@
+{
+  "fixture": "esl features with synthetic all-zero context labels; not benchmark results",
+  "context_calls": [
+    {
+      "input_requires_grad": true,
+      "loss_requires_grad": true
+    },
+    {
+      "input_requires_grad": true,
+      "loss_requires_grad": true
+    },
+    {
+      "input_requires_grad": true,
+      "loss_requires_grad": true
+    },
+    {
+      "input_requires_grad": true,
+      "loss_requires_grad": true
+    }
+  ],
+  "classification_loss_requires_grad": true,
+  "prediction_shape": [
+    3,
+    2
+  ],
+  "optimizer_policy": "all model parameters, BERT separate learning rate",
+  "parameters_omitted_by_original_optimizer_now_included": [
+    "inter_mlp.0.weight",
+    "inter_mlp.0.bias",
+    "inter_mlp.3.weight",
+    "inter_mlp.3.bias",
+    "inter_CGE.att_l",
+    "inter_CGE.att_r",
+    "inter_CGE.proj.event.weight",
+    "inter_CGE.proj.event.bias",
+    "inter_CGE.lin_src.event__intra__event",
+    "inter_CGE.lin_src.event__inter__event",
+    "inter_CGE.lin_dst.event__intra__event",
+    "inter_CGE.lin_dst.event__inter__event",
+    "inter_CGE.linear.weight",
+    "inter_CGE.linear.bias",
+    "GraphConv.fc_k.weight",
+    "GraphConv.fc_k.bias",
+    "GraphConv.fc_q.weight",
+    "GraphConv.fc_q.bias",
+    "GraphConv.Linear.weight",
+    "GraphConv.Linear.bias",
+    "GraphConv.weight_list.0.weight",
+    "GraphConv.weight_list.0.bias",
+    "GraphConv.weight_list.1.weight",
+    "GraphConv.weight_list.1.bias",
+    "linear.weight",
+    "linear.bias",
+    "linear3.weight",
+    "linear3.bias"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "fold1_seconds": 8227.409197,
+  "fivefold_seconds": 41775.189532,
+  "label_seconds": 5780.922140872339,
+  "invalid_count": 0,
+  "out_of_range_count": 0,
+  "best_dev_mean": 0.5349282017439408,
+  "label_records": 10813
+}

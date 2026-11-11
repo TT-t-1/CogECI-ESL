@@ -1,0 +1,84 @@
+{
+  "seed": 209,
+  "sources": {
+    "/home/dancer/tu/cogeci-reproduction/iLIF/data/database/exist/EventStoryLine_bert_intra_and_inter_train_features.pkl": "728c00c43f74c34a95883984c02e7a78d553be5186f9e83df8c954ed71a18999",
+    "/home/dancer/tu/cogeci-reproduction/iLIF/data/database/exist/EventStoryLine_bert_intra_and_inter_dev_features.pkl": "c128c11485793ba8095d1cf2b56abb665cb57c7cc60c0a0305b1672940eb057f",
+    "/home/dancer/tu/cogeci-reproduction/repo-priority/sources/MAVEN_ERE/train.jsonl": "6a5519fe7c30448690adb13d49217c50d474fc57480eae10aecb29df7eb638b7",
+    "/home/dancer/tu/cogeci-reproduction/repo-priority/sources/MAVEN_ERE/valid.jsonl": "6faea0e4e16b4a2d5d9631e09ef6e1c6bac6e3f912490bfc48eeaceaf98c6153"
+  },
+  "ESL": {
+    "train": {
+      "documents": 233,
+      "events": 4668,
+      "pairs": 61065,
+      "positive": 4933,
+      "positive_by_type": {
+        "intra": 1575,
+        "inter": 3358
+      },
+      "max_sentences": 82,
+      "max_bert_length": 105
+    },
+    "dev": {
+      "documents": 25,
+      "events": 666,
+      "pairs": 9514,
+      "positive": 545,
+      "positive_by_type": {
+        "intra": 176,
+        "inter": 369
+      },
+      "max_sentences": 42,
+      "max_bert_length": 105
+    }
+  },
+  "MAVEN": {
+    "train": {
+      "documents": 2621,
+      "events": 66497,
+      "pairs": 1131576,
+      "positive": 47831,
+      "positive_by_type": {
+        "inter": 35398,
+        "intra": 12433
+      },
+      "max_sentences": 51,
+      "max_bert_length": 422,
+      "zero_pair_documents": []
+    },
+    "dev": {
+      "documents": 292,
+      "events": 7442,
+      "pairs": 134621,
+      "positive": 5527,
+      "positive_by_type": {
+        "inter": 4134,
+        "intra": 1393
+      },
+      "max_sentences": 57,
+      "max_bert_length": 119,
+      "zero_pair_documents": []
+    },
+    "test": {
+      "documents": 709,
+      "events": 17779,
+      "pairs": 306853,
+      "positive": 13624,
+      "positive_by_type": {
+        "intra": 3387,
+        "inter": 10237
+      },
+      "max_sentences": 75,
+      "max_bert_length": 159,
+      "zero_pair_documents": [
+        "350cf06a0a4e0b1a5b276e2924fcf053"
+      ]
+    }
+  },
+  "choices": {
+    "ESL": "iLIF binary exist cache; repository document KFold; published positive count differs",
+    "MAVEN_split": "paper: original valid used as test, 10% train dev; our choice: seed209, ceil rounding, fixed ids",
+    "MAVEN_pairs": "our adapter: all unordered mention pairs, chain relations expanded to mentions, binary existence",
+    "MAVEN_tokens": "our adapter: dynamic full-sentence padding, no 105-token truncation; native BERT max512"
+  }
+}

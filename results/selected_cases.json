@@ -1,0 +1,259 @@
+[
+  {
+    "sample_id": "1_1/pair/0",
+    "doc_id": "1_1",
+    "pair_index": 0,
+    "fold": 1,
+    "events": [
+      {
+        "node": 0,
+        "sentence": 0,
+        "span": [
+          4,
+          5
+        ],
+        "trigger": "leaves"
+      },
+      {
+        "node": 1,
+        "sentence": 0,
+        "span": [
+          8,
+          10
+        ],
+        "trigger": "checks into"
+      }
+    ],
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Lindsay Lohan Leaves Betty Ford , Checks Into Malibu Rehab"
+      }
+    ],
+    "gold": 1,
+    "predicted": 1,
+    "scope": "intra"
+  },
+  {
+    "sample_id": "8_3/pair/93",
+    "doc_id": "8_3",
+    "pair_index": 93,
+    "fold": 1,
+    "events": [
+      {
+        "node": 2,
+        "sentence": 2,
+        "span": [
+          1,
+          2
+        ],
+        "trigger": "riots"
+      },
+      {
+        "node": 19,
+        "sentence": 5,
+        "span": [
+          10,
+          11
+        ],
+        "trigger": "died"
+      }
+    ],
+    "sentences": [
+      {
+        "index": 2,
+        "text": "Riots over harsh new austerity measures left three bank workers dead and engulfed the streets of Athens on Wednesday , as angry protesters tried to storm parliament , hurled Molotov cocktails at police and torched buildings ."
+      },
+      {
+        "index": 5,
+        "text": "The three bank workers a man and two women died after demonstrators set their bank on fire along the main demonstration route in central Athens ."
+      }
+    ],
+    "gold": 1,
+    "predicted": 1,
+    "scope": "inter"
+  },
+  {
+    "sample_id": "1_1/pair/172",
+    "doc_id": "1_1",
+    "pair_index": 172,
+    "fold": 1,
+    "events": [
+      {
+        "node": 6,
+        "sentence": 3,
+        "span": [
+          15,
+          16
+        ],
+        "trigger": "signed"
+      },
+      {
+        "node": 8,
+        "sentence": 3,
+        "span": [
+          21,
+          22
+        ],
+        "trigger": "transfer"
+      }
+    ],
+    "sentences": [
+      {
+        "index": 3,
+        "text": "A spokesperson for The Los Angeles Superior Court confirmed to Access that a judge signed an order yesterday allowing the transfer to Cliffside , where she will continue with her 90 - day court - mandated rehab ."
+      }
+    ],
+    "gold": 1,
+    "predicted": 0,
+    "scope": "intra"
+  },
+  {
+    "sample_id": "3_1/pair/475",
+    "doc_id": "3_1",
+    "pair_index": 475,
+    "fold": 1,
+    "events": [
+      {
+        "node": 16,
+        "sentence": 4,
+        "span": [
+          12,
+          15
+        ],
+        "trigger": "handcuffed"
+      },
+      {
+        "node": 36,
+        "sentence": 9,
+        "span": [
+          5,
+          7
+        ],
+        "trigger": "lockdown"
+      }
+    ],
+    "sentences": [
+      {
+        "index": 4,
+        "text": "Comeaux , 49 , took the officers' weapons and handcuffed them together in the back of the vehicle before fleeing on foot at around 9 a . m . , Lyons said ."
+      },
+      {
+        "index": 9,
+        "text": "The escape triggered a lockdown at Lee College and three campuses in the Goose Creek school district , in and around Baytown ."
+      }
+    ],
+    "gold": 0,
+    "predicted": 1,
+    "scope": "inter"
+  },
+  {
+    "sample_id": "1_1/pair/2",
+    "doc_id": "1_1",
+    "pair_index": 2,
+    "fold": 1,
+    "events": [
+      {
+        "node": 0,
+        "sentence": 0,
+        "span": [
+          4,
+          5
+        ],
+        "trigger": "leaves"
+      },
+      {
+        "node": 3,
+        "sentence": 2,
+        "span": [
+          12,
+          13
+        ],
+        "trigger": "moving"
+      }
+    ],
+    "sentences": [
+      {
+        "index": 0,
+        "text": "Lindsay Lohan Leaves Betty Ford , Checks Into Malibu Rehab"
+      },
+      {
+        "index": 2,
+        "text": "Lindsay Lohan has left the Betty Ford Center and is moving to a rehab facility in Malibu , Calif . , Access Hollywood has confirmed ."
+      }
+    ],
+    "gold": 1,
+    "predicted": 0,
+    "scope": "inter"
+  },
+  {
+    "sample_id": "1_8/pair/390",
+    "doc_id": "1_8",
+    "pair_index": 390,
+    "fold": 1,
+    "events": [
+      {
+        "node": 12,
+        "sentence": 4,
+        "span": [
+          14,
+          16
+        ],
+        "trigger": "checked in"
+      },
+      {
+        "node": 13,
+        "sentence": 4,
+        "span": [
+          28,
+          29
+        ],
+        "trigger": "left"
+      }
+    ],
+    "sentences": [
+      {
+        "index": 4,
+        "text": "Heller told a judge during a hearing Thursday morning that Lohan had checked in to the Morningside Recovery rehab facility , but the starlet left it after a few minutes ."
+      }
+    ],
+    "gold": 1,
+    "predicted": 0,
+    "scope": "intra"
+  },
+  {
+    "sample_id": "1_8/pair/735",
+    "doc_id": "1_8",
+    "pair_index": 735,
+    "fold": 1,
+    "events": [
+      {
+        "node": 35,
+        "sentence": 12,
+        "span": [
+          5,
+          6
+        ],
+        "trigger": "rehab"
+      },
+      {
+        "node": 36,
+        "sentence": 12,
+        "span": [
+          6,
+          7
+        ],
+        "trigger": "sentence"
+      }
+    ],
+    "sentences": [
+      {
+        "index": 12,
+        "text": "She served another mandatory rehab sentence at the treatment center , although her stay there was not without drama ."
+      }
+    ],
+    "gold": 0,
+    "predicted": 1,
+    "scope": "intra"
+  }
+]

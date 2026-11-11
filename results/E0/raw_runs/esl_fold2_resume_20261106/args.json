@@ -1,0 +1,24 @@
+{
+  "experiment": "E0_BERT_event_pair",
+  "protocol": "single_fixed_split",
+  "reference_fold": 2,
+  "reference_splits": "/home/dancer/tu/cogeci-reproduction/repo-priority/runs-cgl-fixed/llama8b_esl_main/splits.json",
+  "seed": 209,
+  "epoch": 30,
+  "smoke": false,
+  "batch_size": 1,
+  "bert_lr": 2e-05,
+  "classifier_lr": 0.0001,
+  "weight_decay": 0.01,
+  "warm_up_ratio": 0.1,
+  "max_grad_norm": 1.0,
+  "loss": "repository focal_loss alpha=0.75 gamma=2",
+  "architecture": "BERT, mean event-span pooling, [e1,e2,e1-e2], MLP 2304->2304->2 with dropout 0.4",
+  "parallelism": "BERT sentence encoding across two GPUs",
+  "supervision": "event-pair classification only",
+  "document_counts": {
+    "train": 186,
+    "test": 47,
+    "dev": 25
+  }
+}
